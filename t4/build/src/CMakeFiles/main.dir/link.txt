@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/main.dir/main.o  -o main  -L/home/chendong/src/backup/cmake/usr/lib -rdynamic -lhello -Wl,-rpath,/home/chendong/src/backup/cmake/usr/lib 
