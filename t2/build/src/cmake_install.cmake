@@ -1,8 +1,8 @@
-# Install script for directory: /home/chendong/src/backup/cmake/t2/src
+# Install script for directory: /home/chendong/Github/CMake/t2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/chendong/Github/CMake/t2/target")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

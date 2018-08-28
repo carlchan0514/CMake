@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/chendong/src/backup/cmake/t2/src/main.c
+/home/chendong/Github/CMake/t2/src/main.c
 stdio.h
 -
 

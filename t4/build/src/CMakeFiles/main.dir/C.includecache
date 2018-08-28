@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/chendong/src/backup/cmake/t4/src/main.c
+/home/chendong/Github/CMake/t4/src/main.c
 hello.h
 -
 
-/home/chendong/src/backup/cmake/usr/include/hello/hello.h
+/usr/include/hello/hello.h
 stdio.h
 -
 

@@ -12,12 +12,13 @@ else
     echo "error"
 fi
 
-rm -drf bulid
-rm -drf $INSTALL_DIR
+rm -rf build/
 
-mkdir bulid
+mkdir build
 
-cd bulid
+cd build
+rm -rf $INSTALL_DIR
+
 cmake -DCMAKE_INSTALL_PREFIX=$INSTALL_DIR ..
 make
 make install

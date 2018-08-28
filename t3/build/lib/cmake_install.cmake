@@ -1,4 +1,4 @@
-# Install script for directory: /home/chendong/src/backup/cmake/t3/lib
+# Install script for directory: /home/chendong/Github/CMake/t3/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,9 +46,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/chendong/src/backup/cmake/t3/lib/libhello.so.1.2"
-    "/home/chendong/src/backup/cmake/t3/lib/libhello.so.1"
-    "/home/chendong/src/backup/cmake/t3/lib/libhello.so"
+    "/home/chendong/Github/CMake/t3/lib/libhello.so.1.2"
+    "/home/chendong/Github/CMake/t3/lib/libhello.so.1"
+    "/home/chendong/Github/CMake/t3/lib/libhello.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhello.so.1.2"
@@ -65,10 +65,10 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/chendong/src/backup/cmake/t3/lib/libhello.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/chendong/Github/CMake/t3/lib/libhello.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hello" TYPE FILE FILES "/home/chendong/src/backup/cmake/t3/lib/hello.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hello" TYPE FILE FILES "/home/chendong/Github/CMake/t3/lib/hello.h")
 endif()
 

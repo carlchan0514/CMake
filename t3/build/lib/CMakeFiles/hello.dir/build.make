@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chendong/src/backup/cmake/t3
+CMAKE_SOURCE_DIR = /home/chendong/Github/CMake/t3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chendong/src/backup/cmake/t3/build
+CMAKE_BINARY_DIR = /home/chendong/Github/CMake/t3/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/hello.dir/depend.make
@@ -59,16 +59,16 @@ include lib/CMakeFiles/hello.dir/flags.make
 
 lib/CMakeFiles/hello.dir/hello.o: lib/CMakeFiles/hello.dir/flags.make
 lib/CMakeFiles/hello.dir/hello.o: ../lib/hello.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chendong/src/backup/cmake/t3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CMakeFiles/hello.dir/hello.o"
-	cd /home/chendong/src/backup/cmake/t3/build/lib && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hello.dir/hello.o   -c /home/chendong/src/backup/cmake/t3/lib/hello.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chendong/Github/CMake/t3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CMakeFiles/hello.dir/hello.o"
+	cd /home/chendong/Github/CMake/t3/build/lib && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hello.dir/hello.o   -c /home/chendong/Github/CMake/t3/lib/hello.c
 
 lib/CMakeFiles/hello.dir/hello.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hello.dir/hello.i"
-	cd /home/chendong/src/backup/cmake/t3/build/lib && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chendong/src/backup/cmake/t3/lib/hello.c > CMakeFiles/hello.dir/hello.i
+	cd /home/chendong/Github/CMake/t3/build/lib && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chendong/Github/CMake/t3/lib/hello.c > CMakeFiles/hello.dir/hello.i
 
 lib/CMakeFiles/hello.dir/hello.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hello.dir/hello.s"
-	cd /home/chendong/src/backup/cmake/t3/build/lib && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chendong/src/backup/cmake/t3/lib/hello.c -o CMakeFiles/hello.dir/hello.s
+	cd /home/chendong/Github/CMake/t3/build/lib && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chendong/Github/CMake/t3/lib/hello.c -o CMakeFiles/hello.dir/hello.s
 
 lib/CMakeFiles/hello.dir/hello.o.requires:
 
@@ -91,9 +91,9 @@ hello_EXTERNAL_OBJECTS =
 ../lib/libhello.so.1.2: lib/CMakeFiles/hello.dir/hello.o
 ../lib/libhello.so.1.2: lib/CMakeFiles/hello.dir/build.make
 ../lib/libhello.so.1.2: lib/CMakeFiles/hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chendong/src/backup/cmake/t3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../../lib/libhello.so"
-	cd /home/chendong/src/backup/cmake/t3/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/chendong/src/backup/cmake/t3/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libhello.so.1.2 ../../lib/libhello.so.1 ../../lib/libhello.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chendong/Github/CMake/t3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library ../../lib/libhello.so"
+	cd /home/chendong/Github/CMake/t3/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/chendong/Github/CMake/t3/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libhello.so.1.2 ../../lib/libhello.so.1 ../../lib/libhello.so
 
 ../lib/libhello.so.1: ../lib/libhello.so.1.2
 	@$(CMAKE_COMMAND) -E touch_nocreate ../lib/libhello.so.1
@@ -111,10 +111,10 @@ lib/CMakeFiles/hello.dir/requires: lib/CMakeFiles/hello.dir/hello.o.requires
 .PHONY : lib/CMakeFiles/hello.dir/requires
 
 lib/CMakeFiles/hello.dir/clean:
-	cd /home/chendong/src/backup/cmake/t3/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/hello.dir/cmake_clean.cmake
+	cd /home/chendong/Github/CMake/t3/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/hello.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/hello.dir/clean
 
 lib/CMakeFiles/hello.dir/depend:
-	cd /home/chendong/src/backup/cmake/t3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chendong/src/backup/cmake/t3 /home/chendong/src/backup/cmake/t3/lib /home/chendong/src/backup/cmake/t3/build /home/chendong/src/backup/cmake/t3/build/lib /home/chendong/src/backup/cmake/t3/build/lib/CMakeFiles/hello.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chendong/Github/CMake/t3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chendong/Github/CMake/t3 /home/chendong/Github/CMake/t3/lib /home/chendong/Github/CMake/t3/build /home/chendong/Github/CMake/t3/build/lib /home/chendong/Github/CMake/t3/build/lib/CMakeFiles/hello.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/hello.dir/depend
 

@@ -1,4 +1,4 @@
-LINK_DIRECTORIES(/home/chendong/src/backup/cmake/usr/lib)
+LINK_DIRECTORIES(/usr/lib)
 ADD_EXECUTABLE(main main.c)
-INCLUDE_DIRECTORIES(/home/chendong/src/backup/cmake/usr/include/hello)
-TARGET_LINK_LIBRARIES(main hello)
+INCLUDE_DIRECTORIES(/usr/include/hello)
+TARGET_LINK_LIBRARIES(main libhello.a)

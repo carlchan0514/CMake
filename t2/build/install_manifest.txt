@@ -1,0 +1,5 @@
+/home/chendong/Github/CMake/t2/target/share/doc/cmake/t2/COPYRIGHT
+/home/chendong/Github/CMake/t2/target/share/doc/cmake/t2/README
+/home/chendong/Github/CMake/t2/target/bin/runhello.sh
+/home/chendong/Github/CMake/t2/target/bin/hello
+/home/chendong/Github/CMake/t2/target/share/doc/cmake/t2/hello.txt

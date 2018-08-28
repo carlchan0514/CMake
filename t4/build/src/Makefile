@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chendong/src/backup/cmake/t4
+CMAKE_SOURCE_DIR = /home/chendong/Github/CMake/t4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chendong/src/backup/cmake/t4/build
+CMAKE_BINARY_DIR = /home/chendong/Github/CMake/t4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chendong/src/backup/cmake/t4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chendong/src/backup/cmake/t4/build/CMakeFiles /home/chendong/src/backup/cmake/t4/build/src/CMakeFiles/progress.marks
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chendong/src/backup/cmake/t4/build/CMakeFiles 0
+	cd /home/chendong/Github/CMake/t4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chendong/Github/CMake/t4/build/CMakeFiles /home/chendong/Github/CMake/t4/build/src/CMakeFiles/progress.marks
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chendong/Github/CMake/t4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chendong/src/backup/cmake/t4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chendong/Github/CMake/t4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/main.dir/rule:
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
 .PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -122,22 +122,22 @@ main: src/CMakeFiles/main.dir/rule
 
 # fast build rule for target.
 main/fast:
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 # target to build an object file
 main.o:
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.o
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.o
 .PHONY : main.o
 
 # target to preprocess a source file
 main.i:
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.i
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.i
 .PHONY : main.i
 
 # target to generate assembly for a file
 main.s:
-	cd /home/chendong/src/backup/cmake/t4/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.s
+	cd /home/chendong/Github/CMake/t4/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.s
 .PHONY : main.s
 
 # Help Target
@@ -163,6 +163,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chendong/src/backup/cmake/t4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chendong/Github/CMake/t4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

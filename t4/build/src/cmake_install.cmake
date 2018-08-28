@@ -1,4 +1,4 @@
-# Install script for directory: /home/chendong/src/backup/cmake/t4/src
+# Install script for directory: /home/chendong/Github/CMake/t4/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

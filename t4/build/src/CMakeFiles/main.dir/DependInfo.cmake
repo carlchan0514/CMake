@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/chendong/src/backup/cmake/t4/src/main.c" "/home/chendong/src/backup/cmake/t4/build/src/CMakeFiles/main.dir/main.o"
+  "/home/chendong/Github/CMake/t4/src/main.c" "/home/chendong/Github/CMake/t4/build/src/CMakeFiles/main.dir/main.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/chendong/src/backup/cmake/usr/include/hello"
+  "/usr/include/hello"
   )
 
 # Targets to which this target links.

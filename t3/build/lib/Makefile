@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chendong/src/backup/cmake/t3
+CMAKE_SOURCE_DIR = /home/chendong/Github/CMake/t3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chendong/src/backup/cmake/t3/build
+CMAKE_BINARY_DIR = /home/chendong/Github/CMake/t3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chendong/src/backup/cmake/t3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chendong/src/backup/cmake/t3/build/CMakeFiles /home/chendong/src/backup/cmake/t3/build/lib/CMakeFiles/progress.marks
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chendong/src/backup/cmake/t3/build/CMakeFiles 0
+	cd /home/chendong/Github/CMake/t3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chendong/Github/CMake/t3/build/CMakeFiles /home/chendong/Github/CMake/t3/build/lib/CMakeFiles/progress.marks
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chendong/Github/CMake/t3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chendong/src/backup/cmake/t3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chendong/Github/CMake/t3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/hello.dir/rule:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/hello.dir/rule
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/hello.dir/rule
 .PHONY : lib/CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ hello: lib/CMakeFiles/hello.dir/rule
 
 # fast build rule for target.
 hello/fast:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f lib/CMakeFiles/hello.dir/build.make lib/CMakeFiles/hello.dir/build
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f lib/CMakeFiles/hello.dir/build.make lib/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
 # Convenience name for target.
 lib/CMakeFiles/hello_static.dir/rule:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/hello_static.dir/rule
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/hello_static.dir/rule
 .PHONY : lib/CMakeFiles/hello_static.dir/rule
 
 # Convenience name for target.
@@ -181,25 +181,25 @@ hello_static: lib/CMakeFiles/hello_static.dir/rule
 
 # fast build rule for target.
 hello_static/fast:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/build
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/build
 .PHONY : hello_static/fast
 
 # target to build an object file
 hello.o:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f lib/CMakeFiles/hello.dir/build.make lib/CMakeFiles/hello.dir/hello.o
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/hello.o
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f lib/CMakeFiles/hello.dir/build.make lib/CMakeFiles/hello.dir/hello.o
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/hello.o
 .PHONY : hello.o
 
 # target to preprocess a source file
 hello.i:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f lib/CMakeFiles/hello.dir/build.make lib/CMakeFiles/hello.dir/hello.i
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/hello.i
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f lib/CMakeFiles/hello.dir/build.make lib/CMakeFiles/hello.dir/hello.i
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/hello.i
 .PHONY : hello.i
 
 # target to generate assembly for a file
 hello.s:
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f lib/CMakeFiles/hello.dir/build.make lib/CMakeFiles/hello.dir/hello.s
-	cd /home/chendong/src/backup/cmake/t3/build && $(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/hello.s
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f lib/CMakeFiles/hello.dir/build.make lib/CMakeFiles/hello.dir/hello.s
+	cd /home/chendong/Github/CMake/t3/build && $(MAKE) -f lib/CMakeFiles/hello_static.dir/build.make lib/CMakeFiles/hello_static.dir/hello.s
 .PHONY : hello.s
 
 # Help Target
@@ -230,6 +230,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chendong/src/backup/cmake/t3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chendong/Github/CMake/t3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

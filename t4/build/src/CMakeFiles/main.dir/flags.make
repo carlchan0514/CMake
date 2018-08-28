@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/chendong/src/backup/cmake/usr/include/hello 
+C_INCLUDES = -I/usr/include/hello 
 

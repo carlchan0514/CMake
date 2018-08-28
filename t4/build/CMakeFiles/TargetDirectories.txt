@@ -1,5 +1,5 @@
-/home/chendong/src/backup/cmake/t4/build/CMakeFiles/edit_cache.dir
-/home/chendong/src/backup/cmake/t4/build/CMakeFiles/rebuild_cache.dir
-/home/chendong/src/backup/cmake/t4/build/src/CMakeFiles/rebuild_cache.dir
-/home/chendong/src/backup/cmake/t4/build/src/CMakeFiles/edit_cache.dir
-/home/chendong/src/backup/cmake/t4/build/src/CMakeFiles/main.dir
+/home/chendong/Github/CMake/t4/build/CMakeFiles/edit_cache.dir
+/home/chendong/Github/CMake/t4/build/CMakeFiles/rebuild_cache.dir
+/home/chendong/Github/CMake/t4/build/src/CMakeFiles/rebuild_cache.dir
+/home/chendong/Github/CMake/t4/build/src/CMakeFiles/edit_cache.dir
+/home/chendong/Github/CMake/t4/build/src/CMakeFiles/main.dir

@@ -1,8 +1,8 @@
-# Install script for directory: /home/chendong/src/backup/cmake/t2
+# Install script for directory: /home/chendong/Github/CMake/t2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/chendong/Github/CMake/t2/target")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,19 +34,23 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/cmake/t2" TYPE FILE FILES
-    "/home/chendong/src/backup/cmake/t2/COPYRIGHT"
-    "/home/chendong/src/backup/cmake/t2/README"
+    "/home/chendong/Github/CMake/t2/COPYRIGHT"
+    "/home/chendong/Github/CMake/t2/README"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/chendong/src/backup/cmake/t2/runhello.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/chendong/Github/CMake/t2/runhello.sh")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE DIRECTORY FILES "/home/chendong/Github/CMake/t2/bin/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/chendong/src/backup/cmake/t2/build/src/cmake_install.cmake")
-  include("/home/chendong/src/backup/cmake/t2/build/doc/cmake_install.cmake")
+  include("/home/chendong/Github/CMake/t2/build/src/cmake_install.cmake")
+  include("/home/chendong/Github/CMake/t2/build/doc/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chendong/src/backup/cmake/t2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chendong/Github/CMake/t2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
