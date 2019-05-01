@@ -1,5 +1,7 @@
-/home/chendong/Github/CMake/t2/target/share/doc/cmake/t2/COPYRIGHT
-/home/chendong/Github/CMake/t2/target/share/doc/cmake/t2/README
-/home/chendong/Github/CMake/t2/target/bin/runhello.sh
-/home/chendong/Github/CMake/t2/target/bin/hello
-/home/chendong/Github/CMake/t2/target/share/doc/cmake/t2/hello.txt
+/Users/chendong/Desktop/tmp/usr/bin/hello
+/Users/chendong/Desktop/tmp/usr/share/doc/cmake/t2/hello.txt
+/Users/chendong/Desktop/tmp/usr/share/doc/cmake/t2/COPYRIGHT
+/Users/chendong/Desktop/tmp/usr/share/doc/cmake/t2/README
+/Users/chendong/Desktop/tmp/usr/bin/runhello.sh
+/Users/chendong/Desktop/tmp/usr/share/doc/cmake/t2/CMakeLists.txt
+/Users/chendong/Desktop/tmp/usr/share/doc/cmake/t2/hello.txt
